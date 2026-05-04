@@ -82,7 +82,7 @@ export default function FeaturedProperties() {
     <section id="featured" className="section-padding">
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
         <div className="max-w-2xl">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-2">Propiedades Destacadas</h2>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-2">Propiedades Destacadas</h2>
         </div>
         
         {/* Filters - Minimalist */}

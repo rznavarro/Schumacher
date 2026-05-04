@@ -30,7 +30,7 @@ export default function Testimonials() {
             </div>
             <span className="text-white font-bold opacity-40 uppercase tracking-[0.2em] text-[10px]">4.7 / 5 en Google Reviews</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-white italic tracking-tight">Lo que dicen <br/> de nosotros</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-white italic tracking-tight">Lo que dicen <br/> de nosotros</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

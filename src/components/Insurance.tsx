@@ -9,7 +9,7 @@ export default function Insurance() {
           <div className="w-16 h-16 bg-white/5 border border-brand-gold/20 rounded-2xl flex items-center justify-center mb-8 shadow-2xl">
             <ShieldCheck className="w-8 h-8 gold-text" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             ¿Te preocupa que <br/> no te paguen el arriendo?
           </h2>
           <p className="text-white/50 text-lg mb-8 leading-relaxed font-light">

@@ -29,7 +29,7 @@ export default function Services() {
   return (
     <section id="services" className="section-padding border-t border-white/5">
       <div className="text-left mb-20">
-        <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white italic">¿Qué puedo hacer con Schumacher?</h2>
+        <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white italic">¿Qué puedo hacer con Schumacher?</h2>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

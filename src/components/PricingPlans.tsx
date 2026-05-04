@@ -47,7 +47,7 @@ export default function PricingPlans() {
     <section id="pricing" className="section-padding border-t border-white/5 relative">
       <div>
         <div className="mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">Administración Profesional</h2>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-4">Administración Profesional</h2>
           <p className="text-white/40 italic font-light">
             Soluciones desde un <span className="gold-text font-bold">3% + IVA</span> para rentabilizar tu inversión.
           </p>

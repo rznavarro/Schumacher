@@ -53,10 +53,15 @@ export default function Navbar() {
 
         {/* Action Buttons */}
         <div className="hidden lg:flex items-center gap-8">
-          <button className="gold-bg px-7 py-3 rounded-full font-bold text-[10px] uppercase tracking-widest hover:brightness-110 transition-all active:scale-95 flex items-center gap-2">
+          <a 
+            href="https://api.whatsapp.com/send?phone=56998438003&text=Hola!" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="gold-bg px-7 py-3 rounded-full font-bold text-[10px] uppercase tracking-widest hover:brightness-110 transition-all active:scale-95 flex items-center gap-2"
+          >
             Habla con un ejecutivo
             <MessageCircle className="w-3.5 h-3.5" />
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}

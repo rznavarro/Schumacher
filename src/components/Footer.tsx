@@ -18,11 +18,15 @@ export default function Footer() {
             Liderando el mercado inmobiliario chileno con transparencia y tecnología. 15 años de transacciones exitosas.
           </p>
           <div className="flex gap-4">
-            {[Instagram, Facebook, Linkedin].map((Icon, i) => (
-              <a key={i} href="#" className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:gold-text hover:border-brand-gold transition-all">
-                <Icon className="w-4 h-4" />
-              </a>
-            ))}
+            <a href="https://www.instagram.com/schumacher.propiedades/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:gold-text hover:border-brand-gold transition-all">
+              <Instagram className="w-4 h-4" />
+            </a>
+            <a href="#" className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:gold-text hover:border-brand-gold transition-all">
+              <Facebook className="w-4 h-4" />
+            </a>
+            <a href="#" className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:gold-text hover:border-brand-gold transition-all">
+              <Linkedin className="w-4 h-4" />
+            </a>
           </div>
         </div>
 
@@ -53,7 +57,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-4">
               <Phone className="w-4 h-4 gold-text shrink-0" />
-              <span>+56 9 8765 4321</span>
+              <span>+56 9 9843 8003</span>
             </li>
             <li className="flex items-center gap-4">
               <Mail className="w-4 h-4 gold-text shrink-0" />

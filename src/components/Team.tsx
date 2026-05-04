@@ -28,7 +28,7 @@ export default function Team() {
   return (
     <section id="team" className="section-padding border-t border-white/5">
       <div className="text-left mb-20">
-        <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 italic">El Equipo</h2>
+        <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-4 italic">El Equipo</h2>
         <p className="text-white/40 max-w-2xl font-light">
           Los mejores ejecutivos inmobiliarios a tu disposición para hacer realidad tu operación.
         </p>
@@ -51,9 +51,14 @@ export default function Team() {
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-transparent to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <button className="gold-bg text-brand-navy w-full py-4 rounded-full flex items-center justify-center gap-2 font-bold text-[10px] uppercase tracking-widest transition-all shadow-xl">
+                <a 
+                  href="https://api.whatsapp.com/send?phone=56998438003&text=Hola!" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="gold-bg text-brand-navy w-full py-4 rounded-full flex items-center justify-center gap-2 font-bold text-[10px] uppercase tracking-widest transition-all shadow-xl"
+                >
                   Contactar
-                </button>
+                </a>
               </div>
             </div>
             

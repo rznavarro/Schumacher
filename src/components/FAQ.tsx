@@ -37,7 +37,7 @@ export default function FAQ() {
     <section id="faq" className="section-padding border-t border-white/5">
       <div className="max-w-4xl mx-auto">
         <div className="text-left mb-20">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 italic">FAQ</h2>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-4 italic">FAQ</h2>
           <p className="text-white/30 font-light max-w-xl">Despeja tus dudas para comenzar tu próximo paso inmobiliario con Schumacher.</p>
         </div>
 

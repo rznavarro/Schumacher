@@ -38,7 +38,7 @@ export default function DigitalProcess() {
   return (
     <section id="process" className="section-padding border-t border-white/5">
       <div className="text-left mb-20">
-        <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 italic">Proceso Digital</h2>
+        <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-4 italic">Proceso Digital</h2>
         <p className="text-white/40 max-w-2xl font-light">
           Gestiona todo desde tu dispositivo, sin trámites presenciales lentos ni pérdida de tiempo.
         </p>

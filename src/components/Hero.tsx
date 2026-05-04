@@ -21,11 +21,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-[1.05] tracking-tighter max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 leading-[1.1] tracking-tighter max-w-3xl">
             Encuentra, arrienda <br/> o vende tu propiedad <br/>
             <span className="gold-text italic">con total tranquilidad.</span>
           </h1>
-          <p className="text-xl md:text-2xl font-light opacity-70 max-w-xl mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl font-light opacity-70 max-w-xl mb-12 leading-relaxed">
             15 años de experiencia. Proceso 100% digital. Acompañamiento personalizado en el mercado chileno.
           </p>
         </motion.div>
