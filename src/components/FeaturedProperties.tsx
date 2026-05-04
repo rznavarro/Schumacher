@@ -15,17 +15,6 @@ const properties = [
     image: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 2,
-    title: "Casa Mediterránea en La Dehesa",
-    price: "UF 32.000",
-    location: "Lo Barnechea, RM",
-    type: "Venta",
-    beds: 5,
-    baths: 6,
-    sqm: 450,
-    image: "https://images.unsplash.com/photo-1600585154340-be6191dae10c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-  },
-  {
     id: 3,
     title: "Depto Full Amoblado El Golf",
     price: "CLP 1.850.000",
@@ -35,28 +24,6 @@ const properties = [
     baths: 2,
     sqm: 110,
     image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 4,
-    title: "Loft Industrial Barrio Italia",
-    price: "CLP 950.000",
-    location: "Providencia, RM",
-    type: "Arriendo",
-    beds: 1,
-    baths: 1,
-    sqm: 75,
-    image: "https://images.unsplash.com/photo-1536376074432-bf12177d4f4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 5,
-    title: "Casa de Campo en Chicureo",
-    price: "UF 18.200",
-    location: "Colina, RM",
-    type: "Venta",
-    beds: 4,
-    baths: 3,
-    sqm: 280,
-    image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 6,
